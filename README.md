@@ -1,3 +1,9 @@
+![flutter_getx_i18n](https://socialify.git.ci/LunaGao/flutter_getx_i18n/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Circuit+Board&theme=Light)
+
+
+[![Bless](https://img.shields.io/badge/bless-God-brightgreen)](http://lunagao.github.io/BlessYourCodeTag/)
+![Pub Version](https://img.shields.io/pub/v/flutter_getx_i18n)
+
 # Flutter Getx I18n
 
 A code generation tool for Flutter GetX internationalization that converts CSV files into type-safe Dart translation classes.
