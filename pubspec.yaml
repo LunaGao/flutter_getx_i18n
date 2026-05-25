@@ -1,5 +1,5 @@
 name: flutter_getx_i18n
-description: "A new Flutter package project."
+description: "A code generation tool for Flutter GetX internationalization that converts CSV files into type-safe Dart translation classes."
 version: 0.0.1
 homepage: https://github.com/LunaGao/flutter_getx_i18n
 
