@@ -51,8 +51,8 @@ NOTE: The csv file must in lib folder. DO NOT put it in assets folder.
 
 Create a CSV file with the following format:
 
-| key       | en|English   | zh_Hans|简体中文  | ja|日本語       |
-| -------- | -------- | -------- | -------- |
+| key | en\|English | zh_Hans\|简体中文 | ja\|日本語 |
+| ------------- | ------------- | ------------- | ------------- |
 | hello     | Hello    | 你好     | こんにちは |
 | welcome   | Welcome  | 欢迎     | ようこそ  |
 | button_ok | OK       | 确定     | OK       |
