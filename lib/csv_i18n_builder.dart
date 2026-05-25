@@ -17,8 +17,6 @@ class CsvI18nBuilder implements Builder {
     );
     final csvData = codec.decode(contents);
 
-    print(csvData);
-
     // Validate CSV data.
     ValidateI18n.validateAppI18nCSVContent(
       csvData: csvData,
