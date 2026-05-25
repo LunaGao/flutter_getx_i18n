@@ -12,3 +12,6 @@ dev_dependencies:
   flutter_getx_i18n:
     path: ../.
 
+flutter_getx_i18n:
+  i18n_csv: lib/i18n.csv
+  i18n_dart: lib/i18n.dart
