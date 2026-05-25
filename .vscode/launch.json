@@ -5,11 +5,15 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Dart",
-            "type": "dart",
+            "name": "flutter_getx_i18n",
             "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "example",
             "cwd": "example",
-            "program": "../bin/flutter_getx_i18n.dart"
+            "request": "launch",
+            "type": "dart"
         }
     ]
 }

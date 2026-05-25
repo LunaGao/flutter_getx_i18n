@@ -1,0 +1,8 @@
+# Read about `build.yaml` at https://pub.dev/packages/build_config
+builders:
+  csvI18nBuilder:
+    import: "package:flutter_getx_i18n/builder.dart"
+    builder_factories: ["csvI18nBuilder"]
+    build_extensions: {".csv": [".dart"]}
+    build_to: source
+    auto_apply: root_package

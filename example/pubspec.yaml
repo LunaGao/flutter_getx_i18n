@@ -7,6 +7,9 @@ version: 1.0.0+1
 environment:
   sdk: ^3.6.2
 
+dependencies:
+  get: ^4.3.1
+
 dev_dependencies:
   build_runner: any   # 模型生成器
   flutter_getx_i18n:
