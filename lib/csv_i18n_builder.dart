@@ -91,7 +91,7 @@ class CsvI18nBuilder implements Builder {
     return languageColumns.map(
       (languageColumn) {
         var translatedRows = rows.map((row) {
-          return '''        '${row[0]}': '${row[languageColumn.index]}',''';
+          return '''        '${row[0]}': '${escapeForDartString(row[languageColumn.index] as String)}',''';
         }).join('\n');
 
         return [
@@ -106,9 +106,14 @@ class CsvI18nBuilder implements Builder {
   String buildDisplayValueMap(List<LanguageColumn> languageColumns) {
     return languageColumns.map(
       (languageColumn) {
-        return '''        '${languageColumn.locale}': '${languageColumn.displayName}',''';
+        return '''        '${languageColumn.locale}': '${escapeForDartString(languageColumn.displayName)}',''';
       },
     ).join('\n');
+  }
+
+  /// Escape special characters for use in Dart single-quoted strings.
+  String escapeForDartString(String value) {
+    return value.replaceAll("'", "\\'");
   }
 
   List<String> buildLanguageAliasAssignments(

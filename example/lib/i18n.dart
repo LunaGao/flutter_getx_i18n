@@ -19,7 +19,7 @@ class AppI18N extends Translations {
       'en': {
         'title': 'Title',
         'please_login': 'Please login',
-        'please_login123': 'Please aaa',
+        'please_login123': 'Plea\'se a\'\'aa',
       },
     };
     keys['zh_CN'] = keys['zh_Hans']!;
