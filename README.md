@@ -33,7 +33,7 @@ dependencies:
   get: ^4.6.5
 
 dev_dependencies:
-  flutter_getx_i18n: ^0.0.1
+  flutter_getx_i18n: ^0.0.2
 ```
 
 ### Configuration
